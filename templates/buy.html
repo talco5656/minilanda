@@ -1,0 +1,14 @@
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+	<div class="container">
+		<h1>Buy HERE</h1>
+		</br>
+		<form action="buy" Method="POST">
+			<input type="text" placeholder="username" name="username">
+			<input type="number" placeholder="price" name="price">
+			<input type="number" placeholder="share amount" name="share_amount">
+			<input type="submit" value="buy" class="btn btn-secondary">
+		</form>
+
+	</div>
+{% endblock %}
